@@ -1,0 +1,9 @@
+syntax = "proto2" ;
+
+package basicIM ;
+
+message cryption {
+	optional bytes ciphertext = 1;
+	optional bytes hmac = 3;
+	optional bytes IV = 4;
+}
